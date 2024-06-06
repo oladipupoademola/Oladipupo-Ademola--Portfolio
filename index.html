@@ -8,7 +8,7 @@
 </head>
 <body class="bg-[#00030C] container mx-auto">
     <!-- navbar -->
-<div class="relative">  
+<div class="relative overflow-hidden ">  
     <nav class="flex justify-between z-50 bg-transparent">
         <ul class="text-[#888888] flex justify-around gap-6 p-5 text-2xl ">
             <li class="text-[#F9F9F9] font-bold"><a href="">Home</a></li>
@@ -21,21 +21,28 @@
     </nav>
 
     <!-- section 1 -->
-    <div class="flex container mx-auto">
+    <div class="flex container mx-auto ">
         <div class="mt-20">
             <h1 class="text-[#F9F9F9]  font-semibold text-8xl">My name</h1>
             <h1 class="text-[#F9F9F9]  font-semibold text-8xl mt-10">is DML</h1>
             <h2 class="text-[#888888] font-semibold text-xl mt-5">I’m  a  Software Developer and a passionate <br> UX/UI designer with a focus on creating <br> seamless and visually compelling user experiences</h2>
             <div class="flex w-96 gap-10">
-                <button class="rounded-full text-[#F9F9F9]  bg-[#FF5B02] w-32 h-10 mt-5">Hire Me</button>
+                <div class="animate-bounce">
+                    <button class="rounded-full text-[#F9F9F9]  bg-[#FF5B02] w-32 h-10 mt-5 ">Hire Me</button>
+                    <h2 class="text-[#FF5B02] text-lg font-semibold absolute left-14">^<br>^</h2>
+                </div>
                 <button class="rounded-full text-[#F9F9F9] bg-transparent border border-solid border-[#F9F9F9]  w-32 h-10 mt-5">View CV</button>
             </div>
+            <div class="mt-96">
+
+            </div>
         </div>
-        <div class="absolute -top-64 -right-80 -z-40">
+        <div class="absolute -top-64 -right-80 -z-40 ">
 
             <img class="h-50" src="https://res.cloudinary.com/dnxovvjcz/image/upload/v1717590372/prof-2_vx0fbt.png" alt="">
         </div>
-        </div>
+    </div>
+        
 </div>
 
     <!-- About Me -->
@@ -68,19 +75,22 @@
         <!-- Skills -->
         <div class="mt-52">
             <h1 class="text-[#F9F9F9] text-8xl font-bold">Skills</h1>
+            <marquee width="100%" scrollamount="10" behavior="scroll" direction="left" transition="4s">
             <div class="flex justify-evenly mt-20">
-                <img src="https://res.cloudinary.com/dnxovvjcz/image/upload/v1717599483/html_logo-removebg-preview_1_dl0bdi.png" alt="">
-                <img src="https://res.cloudinary.com/dnxovvjcz/image/upload/v1717599482/CSS3_logo_dlbyi8.png" alt="">
-                <img src="https://res.cloudinary.com/dnxovvjcz/image/upload/v1717599482/javascript-logo-javascript-icon-transparent-free-png_jciukm.png" alt="">
-                <img src="https://res.cloudinary.com/dnxovvjcz/image/upload/v1717599482/png-transparent-figma-app-logo-tech-companies-removebg-preview_1_gajnvv.png" alt="">
-            </div>
-            <div class="flex justify-evenly">
-                <h2 class="text-[#F9F9F9] text-4xl font-semibold">Html</h2>
-                <h2 class="text-[#F9F9F9] text-4xl font-semibold">CSS</h2>
-                <h2 class="text-[#F9F9F9] text-4xl font-semibold">Javascript</h2>
-                <h2 class="text-[#F9F9F9] text-4xl font-semibold">Figma</h2>
-    
-            </div>
+                    <img src="https://res.cloudinary.com/dnxovvjcz/image/upload/v1717599483/html_logo-removebg-preview_1_dl0bdi.png" alt="">
+                    <img src="https://res.cloudinary.com/dnxovvjcz/image/upload/v1717599482/CSS3_logo_dlbyi8.png" alt="">
+                    <img  src="https://res.cloudinary.com/dnxovvjcz/image/upload/v1717599482/javascript-logo-javascript-icon-transparent-free-png_jciukm.png" alt="">
+                    <img src="https://res.cloudinary.com/dnxovvjcz/image/upload/v1717599482/png-transparent-figma-app-logo-tech-companies-removebg-preview_1_gajnvv.png" alt="">
+           
+        </div>
+                <div class="flex justify-evenly">
+                    <h2 class="text-[#F9F9F9] text-4xl font-semibold ">Html</h2>
+                    <h2 class="text-[#F9F9F9] text-4xl font-semibold ">CSS</h2>
+                    <h2 class="text-[#F9F9F9] text-4xl font-semibold">Javascript</h2>
+                    <h2 class="text-[#F9F9F9] text-4xl font-semibold">Figma</h2>
+        
+                </div>
+        </marquee>
         </div>
 
 
@@ -90,9 +100,9 @@
             <h1 class="text-[#F9F9F9] text-8xl font-bold">Projects</h1>
             <div class="flex mt-20 justify-between">
                 <div>
-                    <h2 class="text-[#F9F9F9] mt-12 text-4xl">UI/UX Design</h2>
-                    <p class="text-[#F9F9F9] mt-12">Lorem ipsum dolor sit amet. Ea <br> iusto maiores est quia animi a <br> rerum deserunt. Lorem ipsum <br> dolor sit amet. Ea iusto maiores <br> est quia animi a rerum deserunt. </p>
-                    <button class="rounded-full text-[#F9F9F9]  bg-[#FF5B02] w-32 h-10 mt-10">View Projects</button>
+                    <h2 class="text-[#F9F9F9] mt-12 text-6xl font-semibold">UI/UX Design</h2>
+                    <p class="text-[#F9F9F9] mt-12 text-4xl ">Lorem ipsum dolor sit amet. Ea <br> iusto maiores est quia animi a <br> rerum deserunt. Lorem ipsum <br> dolor sit amet. Ea iusto maiores <br> est quia animi a rerum deserunt. </p>
+                    <button class="rounded-full text-[#F9F9F9] text-2xl bg-[#FF5B02] w-72 h-20 mt-16">View Projects</button>
                 </div>
                 <div>
                     <img class="" src="https://res.cloudinary.com/dnxovvjcz/image/upload/v1717601046/Frame_4_ezocat.png" alt="">
@@ -109,9 +119,9 @@
                     <img class="" src="https://res.cloudinary.com/dnxovvjcz/image/upload/v1717601989/Frame_11_uwkuqi.png" alt="">
                 </div>
                     <div>
-                        <h2 class="text-[#F9F9F9] mt-12 text-4xl">Web Design</h2>
-                        <p class="text-[#F9F9F9] mt-12">Lorem ipsum dolor sit amet. Ea <br> iusto maiores est quia animi a <br> rerum deserunt. Lorem ipsum <br> dolor sit amet. Ea iusto maiores <br> est quia animi a rerum deserunt. </p>
-                        <button class="rounded-full text-[#F9F9F9]  bg-[#FF5B02] w-32 h-10 mt-10">View Projects</button>
+                        <h2 class="text-[#F9F9F9] mt-12 text-6xl font-semibold">Web Design</h2>
+                        <p class="text-[#F9F9F9] mt-12 text-4xl ">Lorem ipsum dolor sit amet. Ea <br> iusto maiores est quia animi a <br> rerum deserunt. Lorem ipsum <br> dolor sit amet. Ea iusto maiores <br> est quia animi a rerum deserunt. </p>
+                        <button class="rounded-full text-[#F9F9F9] text-2xl  bg-[#FF5B02] w-72 h-20 mt-16">View Projects</button>
                     </div>
                 
         </div>
@@ -123,8 +133,8 @@
             <div class="flex mt-20 justify-between">
                 <div>
                     <h2 class="text-[#F9F9F9] mt-12 text-4xl">UI/UX Design</h2>
-                    <p class="text-[#F9F9F9] mt-12">Lorem ipsum dolor sit amet. Ea <br> iusto maiores est quia animi a <br> rerum deserunt. Lorem ipsum <br> dolor sit amet. Ea iusto maiores <br> est quia animi a rerum deserunt. </p>
-                    <button class="rounded-full text-[#F9F9F9]  bg-[#FF5B02] w-32 h-10 mt-10">View Projects</button>
+                    <p class="text-[#F9F9F9] mt-12 text-4xl ">Lorem ipsum dolor sit amet. Ea <br> iusto maiores est quia animi a <br> rerum deserunt. Lorem ipsum <br> dolor sit amet. Ea iusto maiores <br> est quia animi a rerum deserunt. </p>
+                    <button class="rounded-full text-[#F9F9F9] text-2xl  bg-[#FF5B02] w-72 h-20 mt-16">View Projects</button>
                 </div>
                 <div>
                     <img class="" src="https://res.cloudinary.com/dnxovvjcz/image/upload/v1717601989/Frame_5_lfapbf.png" alt="">
